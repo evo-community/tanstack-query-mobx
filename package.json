@@ -15,6 +15,7 @@
     "lint": "yarn lint:format && yarn lint:fix "
   },
   "devDependencies": {
+    "@tanstack/query-core": "^5.53.2",
     "@typescript-eslint/eslint-plugin": "^8.3.0",
     "@typescript-eslint/parser": "^8.3.0",
     "eslint": "^8.16.0",
@@ -22,9 +23,14 @@
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-simple-import-sort": "^7.0.0",
+    "mobx": "^6.13.1",
     "prettier": "^2.6.2",
     "rimraf": "^3.0.2",
     "tsup": "^8.2.4"
+  },
+  "peerDependencies": {
+    "@tanstack/query-core": "^5.0.0",
+    "mobx": "^6.0.0"
   },
   "main": "lib/index.cjs",
   "module": "lib/index.js",

@@ -16,3 +16,14 @@ yarn build:dev
 # Prod build
 yarn build:prod
 ```
+
+## Tasks
+
+- [ ] Create decorator for work with suspence and error boundary
+- [ ] Create bin to copy paste source code in project
+- [ ] Create examples
+  - [ ] Simple query
+  - [ ] Paginated query
+  - [ ] Simple mutation
+  - [ ] Mutation with invalidation
+  - [ ] Optimistic update
